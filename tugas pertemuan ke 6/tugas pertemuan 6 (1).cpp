@@ -1,18 +1,11 @@
 #include <stdio.h>
 
-int main()
-{
-	int deret[10];
-	for(int i = 0; i<10; i++){
-		deret[i]=(i+1)*10;
-	}
-	
-	for(int i = 0;i<10;i++) {
-		printf("%d",deret[i]);
-		
-	}
-	
-	return 0;
-	
-	
+int main() {
+    // Mencetak deret angka 10 hingga 100 dengan selisih 10
+    for (int i = 10; i <= 100; i += 10) {
+        printf("%d ", i);
+    }
+
+    return 0;
 }
+
